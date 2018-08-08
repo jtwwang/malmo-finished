@@ -1,0 +1,66 @@
+[15:40:05] [Client thread/INFO]: Setting user: Player41
+[15:40:10] [Client thread/WARN]: Skipping bad option: lastServer:
+[15:40:10] [Client thread/INFO]: LWJGL Version: 2.9.4
+[15:40:11] [Client thread/INFO]: [STDOUT]: MALMO: Attempting to transform MinecraftServer
+[15:40:11] [Client thread/INFO]: [STDOUT]: MALMO: Found GlStateManager, attempting to transform it
+[15:40:11] [Client thread/INFO]: [STDOUT]: MALMO: Found GlStateManager.bindTexture() method, attempting to transform it
+[15:40:11] [Client thread/INFO]: [STDOUT]: MALMO: Hooked into call to GlStateManager.bindTexture()
+[15:40:12] [Client thread/INFO]: [STDOUT]: ---- Minecraft Crash Report ----
+// I just don't know what went wrong :(
+
+Time: 8/6/18 3:40 PM
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.11.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_181, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 469926160 bytes (448 MB) / 752353280 bytes (717 MB) up to 1908932608 bytes (1820 MB)
+	JVM Flags: 1 total; -Xmx2G
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+OverclockingPlugin (MalmoMod-0.35.6.jar)
+  com.microsoft.Malmo.OverclockingClassTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 391.01' Renderer: 'GeForce GTX 1070/PCIe/SSE2'
+[15:40:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Microsoft Malmo Mod
+[15:40:18] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in C:\Users\justi\Box Sync\Clubs\Artificial Intelligence Society\Marlo\malmo-0.35.6\Minecraft\build\libs\MalmoMod-0.35.6.jar
+[15:40:18] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in C:\Users\justi\Box Sync\Clubs\Artificial Intelligence Society\Marlo\malmo-0.35.6\Minecraft\build\libs\MalmoMod-0.35.6.jar
+[15:40:18] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in C:\Users\justi\Box Sync\Clubs\Artificial Intelligence Society\Marlo\malmo-0.35.6\Minecraft\build\libs\MalmoMod-0.35.6.jar
+[15:40:19] [Client thread/INFO]: [STDOUT]: Testing schemas against internal version number: 0.35
+[15:40:23] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:40:23] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[15:40:23] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:40:23] [Thread-8/INFO]: OpenAL initialized.
+[15:40:23] [Sound Library Loader/INFO]: Sound engine started
+[15:40:30] [Client thread/INFO]: Created: 16x16 textures-atlas
+[15:40:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_MOD_READY
+[15:40:32] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Microsoft Malmo Mod
+[15:40:32] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in C:\Users\justi\Box Sync\Clubs\Artificial Intelligence Society\Marlo\malmo-0.35.6\Minecraft\build\libs\MalmoMod-0.35.6.jar
+[15:40:32] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in C:\Users\justi\Box Sync\Clubs\Artificial Intelligence Society\Marlo\malmo-0.35.6\Minecraft\build\libs\MalmoMod-0.35.6.jar
+[15:40:32] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in C:\Users\justi\Box Sync\Clubs\Artificial Intelligence Society\Marlo\malmo-0.35.6\Minecraft\build\libs\MalmoMod-0.35.6.jar
+[15:40:34] [Client thread/INFO]: SoundSystem shutting down...
+[15:40:34] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:40:34] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:40:34] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[15:40:34] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:40:34] [Thread-10/INFO]: OpenAL initialized.
+[15:40:35] [Sound Library Loader/INFO]: Sound engine started
+[15:40:41] [Client thread/INFO]: Created: 512x512 textures-atlas
+[15:40:49] [Client thread/WARN]: Skipping bad option: lastServer:
+[15:40:55] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_MOD_READY
+[15:40:55] [Thread-12/INFO]: [STDOUT]: INFO: ->mcp(0) Listening for messages on port 10000
+[15:40:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: DORMANT
+[15:40:55] [Client thread/INFO]: [STDOUT]: CLIENT enter state: DORMANT
+[15:40:56] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[15:48:22] [Client thread/INFO]: Stopping!
+[15:48:22] [Client thread/INFO]: SoundSystem shutting down...
+[15:48:22] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
